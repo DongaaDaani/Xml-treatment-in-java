@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><data xmlns="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="XMLSchemaPIUMNI.xsd">
+<tulajdonosok>
+	<tulajdonos id="tulaj1">
+		<nev>
+			<vezeteknev>Nagy</vezeteknev>
+			<keresztnev>Pista</keresztnev>
+		</nev>
+		<eletkora>36</eletkora>
+		<jarmuvekszama>2</jarmuvekszama>
+		<telefonszama>3630457645</telefonszama>
+	</tulajdonos>
+
+	<tulajdonos id="tulaj2">
+		<nev>
+			<vezeteknev>Kis</vezeteknev>
+			<keresztnev>Bence</keresztnev>
+		</nev>
+		<eletkora>29</eletkora>
+		<jarmuvekszama>1</jarmuvekszama>
+		<telefonszama>062057535</telefonszama>
+	</tulajdonos>
+
+	<tulajdonos id="tulaj3">
+		<nev>
+			<vezeteknev>Varga</vezeteknev>
+			<keresztnev>János</keresztnev>
+		</nev>
+		<eletkora>44</eletkora>
+		<jarmuvekszama>2</jarmuvekszama>
+		<telefonszama>46124624</telefonszama>
+	</tulajdonos>
+	
+</tulajdonosok>
+
+<jarmuvek>
+	<jarmu gyartoid="gyarto2" rsz="ETR-235" tulajid="tulaj2">
+		<fogyasztas>8l/100</fogyasztas>
+		<tipus>Audi R8</tipus>
+		<szine>Fehér</szine>
+		<futottkm>80,000km</futottkm>
+		<gyartasiev>2012</gyartasiev>
+	</jarmu>
+
+	<jarmu gyartoid="gyarto3" rsz="RTT-745" tulajid="tulaj1">
+		<fogyasztas>17l/100</fogyasztas>
+		<tipus>Chevrolette Camaro</tipus>
+		<szine>Sárga</szine>
+		<futottkm>65,000km</futottkm>
+		<gyartasiev>2014</gyartasiev>
+	</jarmu>
+
+	<jarmu gyartoid="gyarto1" rsz="LJS-732" tulajid="tulaj1">
+		<fogyasztas>15l/100</fogyasztas>
+		<tipus>Lamborghini hurrican</tipus>
+		<szine>Zöld</szine>
+		<futottkm>40,000km</futottkm>
+		<gyartasiev>2017</gyartasiev>
+	</jarmu>
+
+	<jarmu gyartoid="gyarto1" rsz="FDG-345" tulajid="tulaj3">
+		<fogyasztas>14l/100</fogyasztas>
+		<tipus>Lamborghini aventador</tipus>
+		<szine>Fehér</szine>
+		<futottkm>80,000km</futottkm>
+		<gyartasiev>2011</gyartasiev>
+	</jarmu>
+
+
+	<jarmu gyartoid="gyarto2" rsz="XCV-842" tulajid="tulaj3">
+		<fogyasztas>11l/100</fogyasztas>
+		<tipus>Audi Rs6</tipus>
+		<szine>Fekete</szine>
+		<futottkm>120,000km</futottkm>
+		<gyartasiev>2018</gyartasiev>
+	</jarmu>
+</jarmuvek>
+
+	<gyartok id="gyarto1">
+		<gyarto>
+			<nev>Lamborghini</nev>
+			<ev>1949</ev>
+			<telephely>U.K</telephely>
+		</gyarto>
+		<gyarto id="gyarto2">
+			<nev>Audi</nev>
+			<ev>1936</ev>
+			<telephely>Germany</telephely>
+		</gyarto>
+		<gyarto id="gyarto3">
+			<nev>Chevrolette</nev>
+			<ev>1966</ev>
+			<telephely>Usa</telephely>
+		</gyarto>
+	</gyartok>
+
+	<motorok>
+		<motor id="1">
+			<nev>Siemens</nev>
+			<gyartasiev>2002</gyartasiev>
+			<tipusa>Dizel</tipusa>
+		</motor>
+		<motor id="2">
+			<nev>Volvo</nev>
+			<gyartasiev>1988</gyartasiev>
+			<tipusa>Benzin</tipusa>
+		</motor>
+		<motor id="3">
+			<nev>Tesla</nev>
+			<gyartasiev>2011</gyartasiev>
+			<tipusa>Elekttromos</tipusa>
+		</motor>
+	</motorok>
+
+	<cegvezetok>
+		<cegvezeto id="1">
+			<nev>Sándor</nev>
+			<tapasztalat>11</tapasztalat>
+			<fizetés>1,350,000 ft</fizetés>
+		</cegvezeto>
+		<cegvezeto id="2">
+			<nev>Pista</nev>
+			<tapasztalat>16 év</tapasztalat>
+			<fizetés>1,800,000 ft</fizetés>
+		</cegvezeto>
+		<cegvezeto id="3">
+			<nev>Béla</nev>
+			<tapasztalat>12 év</tapasztalat>
+			<fizetés>1,130,000 ft</fizetés>
+		</cegvezeto>
+	</cegvezetok>
+</data>
